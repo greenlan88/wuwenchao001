@@ -18,14 +18,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbq-to-3OW">
-                                <rect key="frame" x="89" y="157" width="46" height="30"/>
+                                <rect key="frame" x="97" y="157" width="30" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="1"/>
+                                <connections>
+                                    <segue destination="n6o-sZ-YQf" kind="modal" id="n5e-mq-CPf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnm-nB-72O">
-                                <rect key="frame" x="171" y="157" width="46" height="30"/>
+                                <rect key="frame" x="179" y="157" width="30" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="2"/>
+                                <connections>
+                                    <segue destination="2ZQ-hS-lnw" kind="modal" id="QoK-mq-zPk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -34,7 +40,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175.46666666666667" y="378.19333333333333"/>
+            <point key="canvasLocation" x="70" y="327"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D3C-X1-t36">
+            <objects>
+                <viewController id="2ZQ-hS-lnw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HyO-6V-hQi"/>
+                        <viewControllerLayoutGuide type="bottom" id="tgp-LF-dFc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yh4-JA-cRf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e0I-rE-jFZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="621" y="313"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="arc-8w-PBu">
+            <objects>
+                <viewController id="n6o-sZ-YQf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6u8-8v-cYE"/>
+                        <viewControllerLayoutGuide type="bottom" id="DLj-7H-eC3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Qf-Iy-ug0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.51857953999999995" blue="0.53864928779999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qwk-PR-Cjz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bMK-qN-IHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="404" y="936"/>
         </scene>
     </scenes>
 </document>
